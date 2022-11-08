@@ -1,0 +1,29 @@
+block config
+	include utilis/vars
+	include utilis/mixins
+	
+doctype html
+html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
+	head
+		include utilis/metatags
+		include utilis/metaTagsPWA
+		link(rel="stylesheet" href="assets/css/styles.css")
+		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
+	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
+		//here start the Main Header
+		header(class='main-header')
+			include ../components/top-nav
+			block main-header
+		//here ends the Main Header
+		//here start the Main Container
+		main(class='main-container')
+			block main-container
+		//here ends the Main Container
+		//here start the Main Footer
+		footer(class='main-footer')
+			include ../includes/footer
+			block main-footer
+		//here ends the Main Footer
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js")
+		script(src="assets/js/scripts-min.js")
+		block scripts

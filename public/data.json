@@ -1,0 +1,141 @@
+{
+	"casos":
+		[
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			}
+		],
+		"banca":[
+			{
+				"text":"Esto es banca",
+				"md":"banca1"
+			},
+			{
+				"text":"Esto es banca",
+				"md":"banca2"
+			}
+	
+	    ],
+
+		"ordinarios":[
+			{
+				"text":"Hola <br> mundo 1",
+				"md":"example"
+			},
+			{
+			"text":"Hola <br> mundo 1",
+			"md":"Hola1"
+			},
+			{
+				"text":"Hola <br> mundo 2",
+				"md":"Hola2"
+			},
+			{
+				"text":"Hola <br> mundo 2",
+				"md":"Hola3"
+			}
+		
+	
+	    ],
+
+		"card":[
+			{
+				"title":"Hola <br> mundo 2 TITLE",
+				"md":"card-1"
+			}
+		]
+		
+}
