@@ -1,10 +1,19 @@
 nav(class='top-nav')
 	div(class='top-nav__container')
 		a(href='./', class='top-nav__link')
-			img(src='assets/img/img1.jpg', alt='', class='top-nav__logo')
+			img(src='assets/img/logo.png', alt='', class='top-nav__logo')
 		ul(class='top-nav__menu')
-			li(class='top-nav__li'): a(href='./', class='top-nav__anchor') Home
-			li(class='top-nav__li'): a(href='page2.html', 	class='top-nav__anchor') page 2
+			include ../config/utilis/top-menu
+			//<li><a class="phone-info whatsapp" href="https://wa.me/56932130074"><i class="fa fa-whatsapp"></i><span class="text-phone"></span></a></li>
+		ul()
+			div(class="btn-ml")
+				button(class="btn-top-nav") REGISTRO
+				button(class="btn-top-nav btn-dark") INGRESAR
 		button(type='button', class='top-nav__mb-iconMenu hamburger hamburger--slider-r')
 			span.hamburger-box
 				span.hamburger-inner
+
+div(class="btn-m-nav btn-ml")
+	button(class="btn-top-nav") REGISTRO
+	button(class="btn-top-nav btn-dark") INGRESAR
+

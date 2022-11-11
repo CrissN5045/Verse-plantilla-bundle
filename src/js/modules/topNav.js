@@ -1,4 +1,4 @@
-export const topNav = () => {
+export const topNav = () => { 
 	let myFunction = ()=> {
 		document.querySelector('.hamburger').addEventListener('click', function(e) {
 			e.preventDefault();

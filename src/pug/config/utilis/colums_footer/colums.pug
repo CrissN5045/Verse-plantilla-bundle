@@ -1,0 +1,26 @@
+mixin ulfooter()
+	ul(class="ul-footer")
+		-for(var j = 0; j < colum.length; j++)
+			-var text=colum[j].text
+			-var url=colum[j].url
+			+footerColum(text,url)
+
+mixin footerColum(text, url)
+	li: a(href=url)=text
+
+-for(var i = 0; i < 3; i++)
+	-if(i == 0)
+		-var colum = footer_colum_1;
+	-else if(i == 1)
+		-var colum = footer_colum_2;
+	-else if(i == 2)
+		-var colum = footer_colum_3;
+	+ulfooter()
+
+
+//- -for(var i = 0; i < footer_colum_1.length ; i++)
+//- 		-var colum1 = footer_colum_1;
+//- 		-for(var j = 0; j < footer_colum_1[i].item.length ; j++)
+//- 			-var text=footer_colum_1[i].item[j].text
+//- 			-var url=footer_colum_1[i].item[j].url
+//- 			+footerColum(text,url)

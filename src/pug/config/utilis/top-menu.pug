@@ -1,0 +1,6 @@
+mixin topNav(text, url)
+	li(class='top-nav__li'): a(href=url, class='top-nav__anchor' )=text
+	
+-for(var i = 0; i < topNav.length ; i++)
+		-var topNa = topNav[i]
+		+topNav(topNa.text, topNa.url)

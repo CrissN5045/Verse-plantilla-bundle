@@ -94,7 +94,7 @@ gulp.task('pug-dev', () =>
 	gulp.src('./src/pug/pages/**/*.pug')
 		.pipe(plumber())
 		.pipe(data(function(file) {
-			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/example.json`))
+			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/data.json`))
 		}))
 		.pipe(pug({
 			pretty: true,
@@ -107,7 +107,7 @@ gulp.task('pug-build', () =>
 	gulp.src('./src/pug/pages/**/*.pug')
 		.pipe(plumber())
 		.pipe(data(function(file) {
-			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/example.json`))
+			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/data.json`))
 		}))
 		.pipe(pug({
 			basedir: './src/pug'
@@ -203,6 +203,16 @@ gulp.task('manifest', () => {
 		.pipe(gulp.dest('./public/'))
 });
 
+gulp.task('data', () => {
+	gulp.src('./src/data/data.json')
+		.pipe(gulp.dest('./public/'))
+});
+
+gulp.task('md-dev', () => {
+	gulp.src('./src/pug/md/**')
+		.pipe(gulp.dest('./public/assets/md'))
+});
+
 gulp.task('sw', () => {
 	gulp.src('./src/sw.js')
 		.pipe(gulp.dest('./public/'))
@@ -218,7 +228,7 @@ gulp.task('sitemap', () => {
 		.pipe(gulp.dest('./public'))
 });
 
-gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw'], () => {
+gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw', 'data','md-dev'], () => {
 	server.init({
 		server: {
 			baseDir: './public'
@@ -231,6 +241,8 @@ gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-d
 	watch('./src/img/**/**', () => gulp.start('images-dev'))
 	watch('./src/manifest.json', () => gulp.start('manifest'))
 	watch('./src/sw.js', () => gulp.start('sw'))
+	watch('./src/data/**', () => gulp.start('data'))
+	watch('./src/pug/md/**', () => gulp.start('md-dev'))
 });
 
 gulp.task('cache', () => {

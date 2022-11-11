@@ -1,0 +1,187 @@
+{
+	"casos":
+		[
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			}
+		],
+		"banca":[
+			{
+				"text":"Esto es banca",
+				"md":"banca1"
+			},
+			{
+				"text":"Esto es banca",
+				"md":"banca2"
+			}
+	
+	    ],
+
+		"topNav":[
+			{
+				"text":"LINEAS DE APUESTA",
+				"url":"example"
+			},
+			{
+				"text":"CASINO",
+				"url":"Hola1"
+			},
+			{
+				"text":"CABALLOS",
+				"url":"Hola2"
+			},
+			{
+				"text":"BANCA",
+				"url":"Hola3"
+			},
+			{
+				"text":"CONTACTO",
+				"url":"Hola3"
+			}
+	    ],
+		"footer_colum_1":[
+			{
+				"text": "Apuestas en Línea",
+				"url": "url"
+			},
+			{
+				"text": "Apuestas Caballos",
+				"url": "url"
+			},
+			{
+				"text": "Casino en Línea",
+				"url": "url"
+			},
+			{
+				"text": "Opciones del Deposito",
+				"url": "url"
+			}
+		],
+		"footer_colum_2":[
+			{
+				"text": "Reglas Deportes",
+				"url": "url"
+			},
+			{
+				"text": "Líneas de Apuesta",
+				"url": "url"
+			},
+			{
+				"text": "REGISTRARME!",
+				"url": "url"
+			}
+			
+		],
+		"footer_colum_3":[
+			{
+				"text": "Reglas de Caballos",
+				"url": "url"
+			},
+			{
+				"text": "Juego Responsable",
+				"url": "url"
+			},
+			{
+				"text": "Política de Privacidad",
+				"url": "url"
+			},
+			{
+				"text": "Reglas Apuestas en vivo",
+				"url": "url"
+			}
+		]
+		
+}

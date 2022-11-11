@@ -22,11 +22,45 @@ body {
 }
 
 .main-header{}
-.main-container{}
+.main-container{
+}
+
+.main-container-slider{
+	max-height: 400px;
+}
 .main-footer {
 	background 		: $color-first;
 	color      		: #FFF;
 	padding    		: 2rem 0;
 	font-size  		: fontSize(small);
 	margin-top 		: auto;
+	.ul-footer{
+		list-style: none;
+	}
+	.footer-imgs{
+		display: flex;
+		margin: auto;
+		@include from(m){
+			display: block;
+		}
+		img{
+			width: auto;
+			height: 2rem;
+			margin: auto;
+			@include from(m){
+				width: 140px;
+				height: auto;
+			}
+		}
+		
+	}
+}
+.footer-alig{
+	margin: auto;
+	text-align: center;
+	@include from(m){
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }

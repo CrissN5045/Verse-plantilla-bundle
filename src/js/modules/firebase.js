@@ -1,6 +1,7 @@
 import firebase from 'firebase/app'
 
 export const firebaseModule = () => {
+	
 	const config = {
 		apiKey: "AIzaSyCH9-6XjH9iIr2kbWxuGbUYLcPFivHIUfk",
 		authDomain: "kikeestradadev-22aaf.firebaseapp.com",
